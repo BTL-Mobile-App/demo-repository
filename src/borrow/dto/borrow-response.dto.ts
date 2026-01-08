@@ -4,12 +4,13 @@ class BorrowUserDto {
   @ApiProperty({ example: 'uuid-here', description: 'User ID' })
   id: string;
 
-  @ApiProperty({ example: 'testuser', description: 'Username' })
+  @ApiProperty({ example: 'testuser ', description: 'Username' })
   username: string;
 
   @ApiProperty({ example: 'Test User ', description: 'Tên hiển thị' })
   displayName: string;
 }
+
 
 class BorrowBookDto {
   @ApiProperty({ example: 'uuid-here', description: 'Book ID' })
